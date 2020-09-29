@@ -4,11 +4,6 @@ body{
   margin: auto
   
 }
-
-div{
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 nav {
@@ -27,7 +22,7 @@ nav {
 
 .b{
   width: 480px;
-  height: 75px;
+  height: 150px;
   border: 1px;
   
   background-color:brown;
@@ -35,7 +30,7 @@ nav {
 
 .c {
   width: 480px;
-  height: 75px;
+  height: 125px;
   border: 1px;
   
   background-color:blue;
@@ -43,7 +38,7 @@ nav {
 
 .d {
   width: 480px;
-  height: 75px;
+  height: 125px;
   border: 1px;
   
   background-color: gray;
@@ -59,7 +54,7 @@ nav {
 
 .f{
   width: 240px;
-  height: 75px;
+  height: 250px;
   border: 1px;
   
   background-color: beige;
@@ -67,7 +62,7 @@ nav {
 
 .g{
   width: 240px;
-  height: 75px;
+  height: 250px;
   border: 1px;
   
   background-color:goldenrod;
@@ -75,7 +70,7 @@ nav {
 
 .h{
   width: 240px;
-  height: 75px;
+  height: 250px;
   border: 1px;
   
   background-color:peru;
@@ -83,7 +78,7 @@ nav {
 
 .i{
   width: 480px;
-  height: 75px;
+  height: 80px;
   border: 1px;
   
   background-color:seagreen;
