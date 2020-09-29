@@ -1,10 +1,17 @@
-body {
-  margin: auto;
-  width: 480px;
+@media screen and (min-width:760px){
+body{
+  width: 960px;
+  margin: auto
+  
 }
 
+div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-nav img{
+nav {
   margin: auto;
   width: 480px;
 }
@@ -15,7 +22,7 @@ nav img{
   height: 75px;
   border: 1px;
   
-  background-color: black;
+  background-color:bisque;
 }
 
 .b{
@@ -23,7 +30,7 @@ nav img{
   height: 75px;
   border: 1px;
   
-  background-color: black;
+  background-color:brown;
 }
 
 .c {
@@ -31,7 +38,7 @@ nav img{
   height: 75px;
   border: 1px;
   
-  background-color: black;
+  background-color:blue;
 }
 
 .d {
@@ -39,7 +46,7 @@ nav img{
   height: 75px;
   border: 1px;
   
-  background-color: black;
+  background-color: gray;
 }
 
 .e {
@@ -47,7 +54,7 @@ nav img{
   height: 75px;
   border: 1px;
   
-  background-color: black;
+  background-color: red;
 }
 
 .f{
@@ -55,7 +62,7 @@ nav img{
   height: 75px;
   border: 1px;
   
-  background-color: black;
+  background-color: beige;
 }
 
 .g{
@@ -63,7 +70,7 @@ nav img{
   height: 75px;
   border: 1px;
   
-  background-color: black;
+  background-color:goldenrod;
 }
 
 .h{
@@ -71,13 +78,13 @@ nav img{
   height: 75px;
   border: 1px;
   
-  background-color: black;
+  background-color:peru;
 }
 
 .i{
-  width: 240px;
+  width: 480px;
   height: 75px;
   border: 1px;
   
-  background-color: black;
+  background-color:seagreen;
 }
