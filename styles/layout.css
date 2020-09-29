@@ -1,4 +1,4 @@
-@media screen and (min-width:760px){
+@media (min-width:760px){
 body{
   width: 960px;
   margin: auto
@@ -6,13 +6,13 @@ body{
 }
 }
 
-nav {
+nav{
   margin: auto;
   width: 480px;
 }
 
 
-.a {
+.a{
   width: 480px;
   height: 75px;
   border: 1px;
@@ -28,7 +28,7 @@ nav {
   background-color:brown;
 }
 
-.c {
+.c{
   width: 480px;
   height: 125px;
   border: 1px;
@@ -36,7 +36,7 @@ nav {
   background-color:blue;
 }
 
-.d {
+.d{
   width: 480px;
   height: 125px;
   border: 1px;
@@ -44,20 +44,21 @@ nav {
   background-color: gray;
 }
 
-.e {
+.e{
   width: 240px;
-  height: 75px;
+  height: 250px;
   border: 1px;
   
   background-color: red;
 }
 
 .f{
+  margin-left: 245px;
   width: 240px;
   height: 250px;
   border: 1px;
-  
   background-color: beige;
+  
 }
 
 .g{
@@ -69,6 +70,7 @@ nav {
 }
 
 .h{
+  margin-left: 245px;
   width: 240px;
   height: 250px;
   border: 1px;
