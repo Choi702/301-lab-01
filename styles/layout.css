@@ -1,7 +1,9 @@
 @media (min-width:760px){
 body{
   width: 960px;
+  align-items: center;
   margin: auto
+  
   
 }
 }
@@ -53,7 +55,9 @@ nav{
 }
 
 .f{
-  margin-left: 245px;
+  float: right;
+  margin-top: -250px; 
+  margin-right: 480px;
   width: 240px;
   height: 250px;
   border: 1px;
@@ -70,7 +74,9 @@ nav{
 }
 
 .h{
-  margin-left: 245px;
+  float: right;
+  margin-top: -250px;
+  margin-right: 480px;
   width: 240px;
   height: 250px;
   border: 1px;
@@ -79,6 +85,7 @@ nav{
 }
 
 .i{
+ 
   width: 480px;
   height: 80px;
   border: 1px;
