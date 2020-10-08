@@ -1,6 +1,174 @@
-/* @import "style/reset.css";
-@import "style/base.css";
-@import "style/layout.css";
-@import "style/module.css";
-@import "style/state.css";
-@import "style/theme.css"; */
+
+
+/* Mobile View
+    @media (min-width:480px){
+    body{
+     text-align: center;
+      width: 960px;    
+    }
+
+  .a{
+   line-height:75px;
+    width: 480px;
+    height: 75px;
+    background-color:bisque;
+  }
+ 
+
+  .b{
+    line-height: 150px;
+    width: 480px;
+    height: 150px; 
+    background-color:brown;
+  }
+  
+  .c{
+    line-height: 125px;
+    width: 480px;
+    height: 125px;
+    border: 1px;  
+    background-color:blue;
+  }
+  
+  .d{
+    line-height: 125px;
+    width: 480px;
+    height: 125px;
+    border: 1px; 
+    background-color: gray;
+  }
+  
+  .e{
+    line-height: 250px;
+    width: 240px;
+    height: 250px;
+    border: 1px; 
+    background-color: red;
+  }
+  
+  .f{
+    line-height: 250px;
+    float: right;
+    margin-top: -250px; 
+    margin-right: 480px;
+    width: 240px;
+    height: 250px;
+    border: 1px;
+    background-color: cornflowerblue;
+    
+  }
+  
+  .g{
+    line-height: 250px;
+    width: 240px;
+    height: 250px;
+    border: 1px;
+    background-color:goldenrod;
+  }
+  
+  .h{
+    line-height: 250px;
+    float: right;
+    margin-top: -250px;
+    margin-right: 480px;
+    width: 240px;
+    height: 250px;
+    border: 1px;  
+    background-color:peru;
+  }
+  
+  .i{ 
+    line-height: 80px; 
+    width: 480px;
+    height: 80px;
+    border: 1px;  
+    background-color:seagreen;
+  }
+ */
+
+
+/* * Desktop View *   */
+@media (min-width:958px){
+  body{
+  
+   text-align: center;
+    width: 960px;    
+  }
+.a{
+  line-height:100px ;
+   width: 960px;
+   height: 100px;
+   background-color:bisque;
+ }
+
+
+ .b{
+   line-height: 600px ;
+   width: 200px;
+   height: 600px; 
+   background-color:brown;
+ }
+ 
+ .c{
+   
+   line-height: 200px;
+   width: 380px;
+   height: 200px;
+   border: 1px;  
+   background-color:blue;
+ }
+ 
+ .d{
+   
+   line-height: 200px ;
+   width: 380px;
+   height: 200px;
+   border: 1px; 
+   background-color: gray;
+ }
+ 
+ .e{
+  
+   line-height: 250px;
+   width: 190px;
+   height: 250px;
+   border: 1px; 
+   background-color: red;
+ }
+ 
+ .f{
+   left: 500px;
+   line-height: 250px; 
+   width: 190px;
+   height: 250px;
+   background-color: cornflowerblue;
+   
+ }
+ 
+ .g{
+   line-height: 250px;
+   width: 190px;
+   height: 250px;
+   border: 1px;
+   background-color:goldenrod;
+ }
+ 
+ .h{
+   line-height: 250px;
+   float: right;
+   margin-top: -250px;
+   margin-right: 480px;
+   width: 190px;
+   height: 250px;
+   border: 1px;  
+   background-color:peru;
+ }
+ 
+ .i{  
+   line-height: 150px;
+   width: 760px;
+   height: 150px;
+   border: 1px;  
+   background-color:seagreen;
+ }
+ */

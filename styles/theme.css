@@ -1,0 +1,8 @@
+
+/* Desktop view */
+  @media (min-width:760px){
+    body{
+     background-color: beige;
+     width: 960px; 
+    }     
+    }
