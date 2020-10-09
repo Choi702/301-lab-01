@@ -1,5 +1,5 @@
 
-    /* Mobile View */
+    /* Mobile View
     @media (min-width:480px){
     body{
      text-align: center;
@@ -82,18 +82,18 @@
     height: 80px;
     border: 1px;  
     background-color:seagreen;
-  }
-
+  } */
+ 
 
 
 /* * Desktop View *   */
-@media (min-width:958px){
+/* @media (min-width:958px){
   body{
-  
    text-align: center;
     width: 960px;    
   }
-.a{
+ #container1 {
+  
   line-height:100px ;
    width: 960px;
    height: 100px;
@@ -101,23 +101,22 @@
  }
 
 
- .b{
+ #container2{
    line-height: 600px ;
    width: 200px;
    height: 600px; 
    background-color:brown;
  }
  
- .c{
-   
-   line-height: 200px;
-   width: 380px;
-   height: 200px;
-   border: 1px;  
-   background-color:blue;
+ #container3 {
+  line-height: 200px;
+  width: 380px;
+  height: 200px;
+  border: 1px;  
+  background-color:blue;
  }
  
- .d{
+ #container4{
    
    line-height: 200px ;
    width: 380px;
@@ -126,7 +125,7 @@
    background-color: gray;
  }
  
- .e{
+ #container5{
   
    line-height: 250px;
    width: 190px;
@@ -170,8 +169,8 @@
    border: 1px;  
    background-color:seagreen;
  }
-
-
+ */
+ */
 
   
   
