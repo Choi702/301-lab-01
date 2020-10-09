@@ -86,7 +86,7 @@ main{
 
   
   /* * Desktop View *   */
-@media(min-width:958px){
+@media(min-width:958px)and (min-width:480px){
   main {
     display: grid;
     grid-template-columns: 200px 190px 190px 190px 190px;
@@ -193,51 +193,51 @@ main{
  @media(max-width:958px) and (min-width:480px){
 
 
-#a {
-  
-  background-color: purple;
- }
+  #a {
+    
+    background-color: purple;
+  }
 
 
- #b{
+  #b{
+    
+    background-color: plum;
+  }
   
-   background-color: plum;
- }
- 
- #c{
- 
-   background-color: blueviolet;
- }
- #d {
+  #c{
   
-  background-color: greenyellow;
-}
- 
- #e{ 
+    background-color: blueviolet;
+  }
+  #d {
+    
+    background-color: greenyellow;
+  }
+  
+  #e{ 
 
-  background-color:burlywood;
-  
- }
+    background-color:burlywood;
+    
+  }
 
- #f{ 
+  #f{ 
+    
+    background-color: brown;
+  }
+  #g{ 
   
-  background-color: blueviolet;
-}
-#g{ 
- 
-  background-color:skyblue;
-}
-#h{ 
+    background-color:skyblue;
+  }
+  #h{ 
+    
+    background-color: orangered
+  }
   
-  background-color: orangered
-}
- 
- #i{
- 
-   background-color:springgreen;
- }
+  #i{
+  
+    background-color:springgreen;
+  }
 
- }
+  }
 
 
 
