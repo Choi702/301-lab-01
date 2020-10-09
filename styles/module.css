@@ -1,0 +1,150 @@
+/* * Mobile View *   */
+ /* had to add main width: 480px to fix issues with aliging boxes   */        
+ 
+  #a{
+   
+    background-color:bisque;
+  }
+ 
+
+  #b{
+    
+    background-color:brown;
+  }
+  
+  #c{
+    
+    background-color:blue;
+  }
+  
+  #d{
+    
+    background-color: gray;
+  }
+  
+  #e{
+    
+    background-color: red;
+  }
+  
+  #f{
+    
+    background-color: cornflowerblue;
+    
+  }
+  
+  #g{
+    
+    background-color:goldenrod;
+  }
+  
+  #h{
+   
+    background-color:peru;
+  }
+
+  #i{ 
+   
+    background-color:seagreen;
+   
+  } 
+
+
+
+  /* * Desktop View *   */
+  @media(min-width:958px)and (min-width:480px){
+  
+  #a {
+   
+    background-color:bisque;
+   }
+  
+  
+   #b{
+   
+     background-color:brown;
+   }
+   
+   #c{
+   
+     background-color:blue;
+   }
+   #d {
+   
+    background-color: darkgoldenrod;
+  }
+   
+   #e{ 
+  
+    background-color: gray;
+    
+   }
+  
+   #f{ 
+   
+    background-color: darkorange;
+  }
+  #g{ 
+   
+    background-color:seagreen;
+  }
+  #h{ 
+  
+    background-color: springgreen;
+  }
+   
+   #i{
+   
+     background-color: red;
+   }
+
+
+
+@media(max-width:958px) and (min-width:480px){
+
+
+  #a {
+    
+    background-color: purple;
+  }
+
+
+  #b{
+    
+    background-color: plum;
+  }
+  
+  #c{
+  
+    background-color: blueviolet;
+  }
+  #d {
+    
+    background-color: greenyellow;
+  }
+  
+  #e{ 
+
+    background-color:burlywood;
+    
+  }
+
+  #f{ 
+    
+    background-color:brown;
+  }
+  #g{ 
+  
+    background-color:skyblue;
+  }
+  #h{ 
+    
+    background-color: orangered
+  }
+  
+  #i{
+  
+    background-color:springgreen;
+  }
+
+  

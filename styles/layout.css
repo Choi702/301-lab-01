@@ -1,94 +1,204 @@
-@media (min-width:760px){
-body{
-  width: 960px;
-  align-items: center;
-  margin: auto
-  
-  
-}
-}
-
-nav{
-  margin: auto;
+  /* * Mobile View *   */
+ /* had to add main width: 480px to fix issues with aliging boxes   */
+main{
   width: 480px;
+
 }
 
+    body{
+    
+     text-align: center;
+         
+  }
 
-.a{
-  width: 480px;
-  height: 75px;
-  border: 1px;
-  
-  background-color:bisque;
-}
-
-.b{
-  width: 480px;
-  height: 150px;
-  border: 1px;
-  
-  background-color:brown;
-}
-
-.c{
-  width: 480px;
-  height: 125px;
-  border: 1px;
-  
-  background-color:blue;
-}
-
-.d{
-  width: 480px;
-  height: 125px;
-  border: 1px;
-  
-  background-color: gray;
-}
-
-.e{
-  width: 240px;
-  height: 250px;
-  border: 1px;
-  
-  background-color: red;
-}
-
-.f{
-  float: right;
-  margin-top: -250px; 
-  margin-right: 480px;
-  width: 240px;
-  height: 250px;
-  border: 1px;
-  background-color: beige;
-  
-}
-
-.g{
-  width: 240px;
-  height: 250px;
-  border: 1px;
-  
-  background-color:goldenrod;
-}
-
-.h{
-  float: right;
-  margin-top: -250px;
-  margin-right: 480px;
-  width: 240px;
-  height: 250px;
-  border: 1px;
-  
-  background-color:peru;
-}
-
-.i{
+  #a{
+   line-height:75px;
+    width: 480px;
+    height: 75px;
+   
+  }
  
-  width: 480px;
-  height: 80px;
-  border: 1px;
+
+  #b{
+    line-height: 150px;
+    width: 480px;
+    height: 150px; 
+   
+  }
   
-  background-color:seagreen;
-}
+  #c{
+    line-height: 125px;
+    width: 480px;
+    height: 125px;
+    border: 1px;  
+   
+  }
+  
+  #d{
+    line-height: 125px;
+    width: 480px;
+    height: 125px;
+    
+  }
+  
+  #e{
+    float: left; 
+    line-height: 250px;
+    width: 240px;
+    height: 250px;
+    
+  }
+  
+  #f{
+    line-height: 250px;
+    float: left; 
+    width: 240px;
+    height: 250px;
+   
+    
+  }
+  
+  #g{
+    float: left; 
+    line-height: 250px;
+    width: 240px;
+    height: 250px;
+ 
+  }
+  
+  #h{
+    line-height: 250px;
+    float: left; 
+    width: 240px;
+    height: 250px; 
+   
+  }
+  /* had to put float:left to #e, #f, #g, and #h in order to make boxes line up */
+  #i{ 
+    line-height: 80px; 
+    width: 480px;
+    height: 80px;
+   
+    clear: both;   
+  } 
+ 
+
+/* forgot to add "clear:both" in line 81 */
+
+  /* * Desktop View *   */
+  @media(min-width: 958px){
+    main {
+      display: grid;
+      grid-template-columns: 200px 190px 190px 190px 190px;
+      grid-template-rows: 100px 200px 250px 150px;
+      width: 960px;    
+      
+    }
+      /* had to put this line 98 to 101 in to fix issue  with alignment on desktop view*/
+    main > div{    
+      width: 100% !important;
+      height: 100% !important;
+    }
+    
+    body{ 
+     text-align: center;
+    }
+  
+  #a {
+    line-height:100px ;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+   
+   }
+  
+  
+   #b{
+     line-height: 600px ;
+     grid-column-start: 1;
+     grid-column-end: 2;
+     grid-row-start: 2;
+     grid-row-end: 5;
+
+   }
+   
+   #c{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end:  3;
+     line-height: 200px;
+   
+   }
+   #d {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    line-height: 200px;
+  
+  }
+   
+   #e{ 
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    line-height: 250px ;
+    
+    
+   }
+  
+   #f{ 
+    margin-top: 0;
+    margin-bottom: 0;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    line-height: 250px ;
+   
+  }
+  #g{ 
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    line-height: 250px ;
+  
+  }
+  #h{ 
+    margin-top: 0;
+    margin-bottom: 0;
+    grid-column-start: 5;
+     grid-column-end: 6;
+     grid-row-start: 3;
+     grid-row-end: 4;
+    line-height: 250px ;
+
+  }
+   
+   #i{
+    grid-column-start: 2;
+     grid-column-end: 6;
+     grid-row-start: 4;
+     grid-row-end: 5;
+     line-height: 150px;
+ 
+   }
+
+   /* * Tablet View *   */
+ @media(max-width:958px) and (min-width:480px){
+   main{
+     width: 480px;
+   }
+
+
+ 
+
+
+
+ 
+
+    

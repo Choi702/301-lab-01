@@ -1,4 +1,14 @@
-main {
-  width: 960px;
-  float: center;
+/* good practice to add this in line 2 to 4 everything we use styling in base */
+*{
+  box-sizing: border-box;
 }
+
+
+  
+
+
+
+ 
+
+
+
