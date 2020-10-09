@@ -1,14 +1,14 @@
+/* good practice to add this in line 2 to 4 everything we use styling in base */
+*{
+  box-sizing: border-box;
+}
 
-
-/* body {
-  width: 480px;
-  margin: 50px auto;
-  text-align: center; */
 
   
-}
 
- div {
- background-color: bisque;
+
+
  
-}
+
+
+
